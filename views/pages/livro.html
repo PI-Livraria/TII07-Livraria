@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Miúda</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="container">
+        <div class="row align-items-center">
+            <a class="col-2" href="/">
+                <img class="img-fluid" src="./assets/img/logo.png" alt="" width="197" height="137">
+            </a>
+            <div class="col-8 row">
+                <div class="input-group flex-nowrap">
+                    <form class="search-container justify-content-center" action="#" method="get">
+                        <input class="search-input form-control" autocomplete="off" type="search" name="q" placeholder="O que você está buscando?">
+                        <button type="submit" class="btn search-input-submit" aria-label="Buscar">
+                            <i class="bi bi-search justify-left"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <nav class="col-2 nav justify-content-center">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <img src="./assets/svg/profile.svg" alt="" width="46" height="46">
+                </a>
+                <a class="nav-link" href="#">
+                    <img src="./assets/svg/cart.svg" alt="" width="46" height="46">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <span class="separator">Categorias</span>
+    
+    <main>
+        <section class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img class="img-fluid" src="./assets/media/book-cover.jpg" alt="Nome do Livro" width="335" height="509">
+                </div>
+                <div class="col">
+                    <h2 class="book-title">Nome do Livro</h2>
+                    <span class="info">
+                        <h4>Autor: Autor do Livro</h4>
+                    </span>
+                    <span class="info">
+                        <h4>Editora: Editora do Livro</h4>
+                    </span>
+                    <span class="info">
+                        <h4>Preço: R$ 39,90</h4>
+                    </span>
+                    <div class="frete">
+                        <p>Calcule o frete</p>
+                        <input type="text">
+                        <button>Ok</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="container">
+        <section class="row">
+            <div class="col-6 payments">
+                <p>Pague com</p>
+                <img src="./assets/img/payment-method-1.png" alt="" width="89" height="58">
+                <img src="./assets/img/payment-method-2.png" alt="" width="89" height="58">
+                <img src="./assets/img/payment-method-3.png" alt="" width="89" height="58">
+            </div>
+            <div class="col-6 socials">
+                <p>Nos siga nas redes</p>
+                <nav class="nav justify-content-center">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <img src="./assets/svg/twitter.svg" alt="" width="26" height="26">
+                    </a>
+                    <a class="nav-link" href="#">
+                        <img src="./assets/svg/facebook.svg" alt="" width="26" height="26">
+                    </a>
+                    <a class="nav-link" href="#">
+                        <img src="./assets/svg/linkedin.svg" alt="" width="26" height="26">
+                    </a>
+                    <a class="nav-link" href="#">
+                        <img src="./assets/svg/instagram.svg" alt="" width="26" height="26">
+                    </a>
+                </nav>
+            </div>
+        </section>
+    </footer>
 
+    <script src="script.js"></script>
+</body
