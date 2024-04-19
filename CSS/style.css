@@ -1,1 +1,57 @@
+/* Reset básico para margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background: #f8f9fa; /* Cor de fundo */
+    color: #212529; /* Cor de texto padrão */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto; /* Centraliza o container */
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col, .col-2, .col-4, .col-6, .col-8 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66667%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66667%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
