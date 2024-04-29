@@ -4,41 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livraria Miúda</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/style.css">
 </head>
 <body>
-    <header class="container">
-        <div class="row align-items-center">
-            <a class="col-2" href="/">
-                <img class="img-fluid" src="./assets/img/logo.png" alt="Logo da Livraria Miúda" width="197" height="137">
-            </a>
-            <div class="col-8 row">
-                <form class="search-container justify-content-center" action="#" method="get">
-                    <input class="search-input" type="search" name="q" placeholder="O que você está buscando?">
-                    <button type="submit" class="btn-search">
-                        <i class="bi-search"></i>Buscar
-                    </button>
-                </form>
-            </div>
-            <nav class="col-2 nav justify-content-center">
-                <a class="nav-link active" aria-current="page" href="#">
-                    <img src="./assets/svg/profile.svg" alt="Perfil" width="46" height="46">
-                </a>
-                <a class="nav-link" href="#">
-                    <img src="./assets/svg/cart.svg" alt="Carrinho" width="46" height="46">
-                </a>
-            </nav>
+<header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="../../IMG/logomiuda.png" width="90" alt="miuda">
         </div>
-    </header>
-    <span class="separator">Categorias</span>
-    
+        <div class="nav-pesquisa">
+            <form>
+                <input placeholder='pesquisar'/>
+                <button>Buscar</button>
+            </form>
+        </div>
+        <div class="nav-list">
+            <ul class="nav-item">
+                <li class="nav-item1"><img src="../../IMG/icone-menu.png" width="40"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item2"><img src="../../IMG/icone-carrinho.png" width="40"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item3"><img src="../../IMG/icone-usuario.png" width="40"><a href="#" class="nav-link"></a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="../../IMG/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Carrinho</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Usúario</a></li>
+        </ul>
+    </div>
+    </nav>
+</header>
+<script src="/assets/script.js"> </script>
+
+</body>
+
+<script src="/assets/script.js"> </script>
+
+<span class="separator">Categorias</span>
+
     <main>
         <section class="container">
             <div class="row">
                 <div class="col-4">
-                    <img class="img-fluid" src="./assets/media/book-cover.jpg" alt="Nome do Livro" width="335" height="509">
+                    <img class="img-fluid" src="../..//IMG/istonaoeumacenoura.jpg" alt="Nome do Livro" width="335" height="509">
                 </div>
                 <div class="col">
+                    <br>
+                    <br>
                     <h2 class="book-title">Nome do Livro</h2>
                     <span class="info">
                         <h4>Autor: Autor do Livro</h4>
@@ -49,6 +65,8 @@
                     <span class="info">
                         <h4>Preço: R$ 39,90</h4>
                     </span>
+                    <br>
+                    <br>
                     <div class="frete">
                         <p>Calcule o frete</p>
                         <input type="text">
@@ -58,35 +76,39 @@
             </div>
         </section>
     </main>
-    
+
     <footer class="container">
         <section class="row">
             <div class="col-6 payments">
                 <p>Pague com</p>
-                <img src="./assets/img/payment-method-1.png" alt="Forma de pagamento 1" width="89" height="58">
-                <img src="./assets/img/payment-method-2.png" alt="Forma de pagamento 2" width="89" height="58">
-                <img src="./assets/img/payment-method-3.png" alt="Forma de pagamento 3" width="89" height="58">
+                <img src="../../IMG/forma-pagamento-1.jpg" alt="Forma de pagamento 1" width="89" height="58">
+                <img src="../../IMG/forma-pagamento-2.jpg" alt="Forma de pagamento 2" width="89" height="58">
+                <img src="../../IMG/forma-pagamento-3.jpg" alt="Forma de pagamento 3" width="89" height="58">
             </div>
             <div class="col-6 socials">
                 <p>Nos siga nas redes</p>
                 <nav class="nav justify-content-center">
-                    <a class="nav-link active" aria-current="page" href="#">
-                        <img src="./assets/svg/twitter.svg" alt="Twitter" width="26" height="26">
+                    <a class="nav-link1" href="http://www.google.com" >
+                        <img class="social-icon" src="../../IMG/twitter.svg" alt="Twitter" height="65" width="65"/>
                     </a>
-                    <a class="nav-link" href="#">
-                        <img src="./assets/svg/facebook.svg" alt="Facebook" width="26" height="26">
+                    <a class="nav-link2" href="#">
+                        <img class="social-icon" src="../../IMG/facebook.svg" alt="Facebook" width="75" height="75">
                     </a>
-                    <a class="nav-link" href="#">
-                        <img src="./assets/svg/linkedin.svg" alt="LinkedIn" width="26" height="26">
+                    <a class="nav-link3" href="#">
+                        <img class="social-icon" src="../../IMG/linkedin.svg" alt="LinkedIn" width="75" height="75">
                     </a>
-                    <a class="nav-link" href="#">
-                        <img src="./assets/svg/instagram.svg" alt="Instagram" width="26" height="26">
+                    <a class="nav-link4" href="#">
+                        <img class="social-icon" src="../../IMG/instagram.svg" alt="Instagram" width="75" height="75">
                     </a>
+
+
                 </nav>
+
+
             </div>
         </section>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../../JS/script.js"></script>
 </body>
 </html>
