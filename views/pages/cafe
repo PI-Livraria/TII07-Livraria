@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.v2.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="assets/logomiuda-removebg-preview.png" alt="miuda" width="100px">
+        </div>
+        <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder='Faça sua pesquisa'/>
+                <a class="search-btn" href="#"></a>
+                <i class="fas fa-search"></i>
+        </div>
+        <div class="nav-list">
+            <ul class="nav-item">
+                <li class="nav-item1"><img src="assets/coracao.png" width="40"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item2"><img src="assets/icone-carrinho.png" width="40"><a href="#" class="nav-link"></a></li>
+                <li class="nav-item3"><img src="assets/icone-usuario.png" width="40"><a href="#" class="nav-link"></a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Favoritos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Carrinho</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Usúario</a></li>
+        </ul>
+    </div>
+    </nav>
+  </header>
+  <main>
+    <div class="cardapio">
+      <div class="categoria">
+        <h1>Bebidas</h1>
+        <div class="produtos-container">
+          <div class="produtos">
+              <div class="produto">
+                <img src="assets/cafe c.jpg" alt="Bebida 1">
+                <h3>Nome do produto</h3>
+                <p>Descrição da bebida 1</p>
+              </div>
+              <div class="produto">
+                <img src="assets/cafe c.jpg" alt="Bebida 2">
+                <h3>Nome do produto</h3>
+                <p>Descrição da bebida 2</p>
+              </div>
+              <div class="produto">
+                <img src="assets/cafe c.jpg" alt="Bebida 3">
+                <h3>Nome do produto</h3>
+                <p>Descrição da bebida 3</p>
+              </div>
+            <!-- Mais produtos aqui -->
+          </div>
+        </div>
+      </div>
+      <div class="categoria">
+        <h1>Salgados</h1>
+        <div class="produtos-container">
+          <div class="produtos">
+              <div class="produto">
+                <img src="assets/pao dequeijo.jpeg" alt="Salgado 1">
+                <h3>Nome do produto</h3>
+                <p>Descrição Salgados 01</p>
+              </div>
+              <div class="produto">
+                <img src="assets/pao dequeijo.jpeg" alt="Salgado 2">
+                <h3>Nome do produto</h3>
+                <p>Descrição Salgados 02</p>
+              </div>
+              <div class="produto">
+                <img src="assets/pao dequeijo.jpeg" alt="Salgado 3">
+                <h3>Nome do produto</h3>
+                <p>Descrição Salgados 03</p>
+              </div>
+          <!-- Produtos de salgados aqui -->
+        </div>
+      </div>
+      <div class="categoria">
+        <h1>Doces</h1>
+        <div class="produtos-container">
+          <div class="produtos">
+            <div class="produto">
+              <img src="assets/doce 1.jpg" alt="Doce 1">
+              <h3>Nome do produto</h3>
+              <p>Descrição Doces 01</p>
+            </div>
+            <div class="produto">
+              <img src="assets/doce 1.jpg" alt="Doce 2">
+              <h3>Nome do produto</h3>
+              <p>Descrição Doces 02</p>
+            </div>
+            <div class="produto">
+              <img src="assets/doce 1.jpg" alt="Doce 3">
+              <h3>Nome do produto</h3>
+              <p>Descrição Doces 03</p>
+            </div>
+          <!-- Produtos de doces aqui -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/script.js"> </script>
+    <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>Livraria Miúda</h1>
+                    <p>Literatura para a infância</p>
+    
+                    <div id="footer_social_media">
+                        <a href="https://www.instagram.com/livrariamiuda/" target="_blank" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+    
+                        <a href="/login.html" target="_blank" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+    
+                        <a href="https://api.whatsapp.com/message/EKTY4JEVBCZ3H1?autoload=1&app_absent=0" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <ul class="footer-list">
+                    <li>
+                        <h3>Blog</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                    </li>
+                </ul>
+    
+                <ul class="footer-list">
+                    <li>
+                        <h3>Products</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                    </li>
+                </ul>
+    
+                <div id="footer_subscribe">
+                    <h3>Cadastrar Email</h3>
+    
+                    <p>
+                        Cadastre seu e-mail para receber todas as
+                        novidades!
+                    </p>
+    
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="footer_copyright">
+                &#169
+                2023 all rights reserved
+            </div>
+        </footer>
+    <script src="js.js"></script>
+
+  
+</body>
+</html>
