@@ -1,1 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria e Café Miúda</title>
+    <!-- natan css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-header.css">
+    <link rel="stylesheet" href="style/style-home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style-footer.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');</style>
+</head>
+<body>
+    <header>
+        <!-- natan cabeçalho -->
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="image/logomiuda-removebg-preview.png" width="100px" alt="miuda">
+            </div>
+            <div class="nav-pesquisa">
+                <form>
+                    <input placeholder='pesquisar'/>
+                    <button>enviar</button>
+                </form>
+            </div>
+            <div class="nav-list">
+                <ul class="nav-item">
+                    <li class="nav-item1"><a href="#"><img src="image/icone-menu.png" alt="ícone de menu" width="40"></a></li>
+                    <li class="nav-item2"><a href="#"><img src="image/icone-carrinho.png" alt="ícone de carrinho" width="40"></a></li>
+                    <li class="nav-item3"><a href="login.html.html"><img src="image/icone-usuario.png" alt="ícone de usuário" width="40"></a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="image/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Carrinho</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Usúario</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+    <script src="js/script-header.js"> </script>
 
+        <!--
+        <div class="logo-topo">MIÚDA</div>
+        <div class="pesquisa">Pesquisa</div>
+        <div class="menu">menu</div>
+        <div class="carrinho">carrinho</div>
+        <div class="usuario">usuário</div>
+        -->
+    <main>
+        <div class="banner"><a href="eventoselacamentos.html" target="_blank" class="eventoselacamentos">EVENTOS E LANÇAMENTOS</a>
+            <div class="eventos">
+                <div class="evento1"><a href="eventoselacamentos.html" target="_blank"><img class="imgEvento1" src="image/evento1.jpg" alt="evento 1"></a></div>
+                <div class="evento2"><a href="eventoselacamentos.html" target="_blank"><img class="imgEvento2" src="image/evento2.jpg" alt="evento 2"></a></div>
+                <div class="evento3"><a href="eventoselacamentos.html" target="_blank"><img class="imgEvento3" src="image/evento3.jpg" alt="evento 3"></a></div>
+                <div class="evento4"><a href="eventoselacamentos.html" target="_blank"><img class="imgEvento4" src="image/evento4.jpg" alt="evento 4"></a></div>
+            </div>
+        </div>
+        <div class="populares">POPULARES</div>
+        <div id="livro">
+            <div class="livro1">
+                <div class="frente1"><a href="infolivro.html" target="_blank"><img src="image/pequenopricipe.jpg" alt="nada" class="img1"></a></div>
+                <div class="inferior1"></div> 
+                <div class="folhas1"></div> 
+                <div class="marcador1"></div>
+                <div class="livroDetalhes">
+                        <div class="tituloLivro1">Título do Livro</div>
+                        <div class="preco1">R$ 00,00</div>
+                    </div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+            </div>
+            <div class="livro2">
+                <div class="frente2"><a href="infolivro.html" target="_blank"><img src="image/ostresporquinhos.png" alt="nada" class="img2"></a></div>
+                <div class="inferior2"></div> 
+                <div class="folhas2"></div> 
+                <div class="marcador2"></div>
+                <div class="livroDetalhes">
+                    <div class="tituloLivro2">Título do Livro</div>
+                    <div class="preco2">R$ 00,00</div>
+                </div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+            </div>
+            <div class="livro3">
+                <div class="frente3"><a href="infolivro.html" target="_blank"><img src="image/oprincipepreto.png" alt="nada" class="img3"></a></div>
+                <div class="inferior3"></div> 
+                <div class="folhas3"></div> 
+                <div class="marcador3"></div>
+                <div class="livroDetalhes"> 
+                    <div class="tituloLivro3">Título do Livro</div>
+                    <div class="preco3">R$ 00,00</div>
+                </div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+            </div>
+            <div class="livro4">
+                <div class="frente4"><a href="infolivro.html" target="_blank"><img src="image/marcelomarmelomartelo.jpg" alt="nada" class="img4"></a></div>
+                <div class="inferior4"></div> 
+                <div class="folhas4"></div> 
+                <div class="marcador4"></div>
+                <div class="livroDetalhes"> 
+                    <div class="tituloLivro4">Título do Livro</div>
+                    <div class="preco4">R$ 00,00</div>
+                </div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+            </div>
+            <div class="livro5">
+                <div class="frente5"><a href="infolivro.html" target="_blank"><img src="image/bluey.jpg" alt="nada" class="img5"></a></div>
+                <div class="inferior5"></div> 
+                <div class="folhas5"></div> 
+                <div class="marcador5"></div>
+                <div class="livroDetalhes"> 
+                    <div class="tituloLivro5">Título do Livro</div>
+                    <div class="preco5">R$ 00,00</div>
+                </div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+                </div>
+           </div>
+           <div class="carrossel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-3-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
+              </svg>
+        </div>
+        <div class="livrosGeral">LIVROS</div>
+        <div id="todosLivrosHome"> 
+                    <div class="livrosGeral1">
+                        <div class="frente6"><a href="infolivro.html" target="_blank"><img src="image/diariodeumbananaazulum.jpg" alt="nada" class="img6"></a></div>
+                        <div class="inferior6"></div> 
+                        <div class="folhas6"></div> 
+                        <div class="marcador6"></div> 
+                        <div class="tituloLivro6">Título do Livro</div>
+                        <div class="preco6">R$ 00,00</div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg"  title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+                </div>
+                    <div class="livrosGeral2">
+                        <div class="frente7"><a href="infolivro.html" target="_blank"><img src="image/diariodeumabananavermelho.jpg" alt="nada" class="img7"></a></div>
+                        <div class="inferior7"></div> 
+                        <div class="folhas7"></div> 
+                        <div class="marcador7"></div> 
+                        <div class="tituloLivro7">Título do Livro</div>
+                        <div class="preco7">R$ 00,00</div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos" alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+                </div>
+                    <div class="livrosGeral3">
+                        <div class="frente8"><a href="infolivro.html" target="_blank"><img src="image/diariodeumbananalaranja.png" alt="nada" class="img8"></a></div>
+                        <div class="inferior8"></div> 
+                        <div class="folhas8"></div> 
+                        <div class="marcador8"></div> 
+                        <div class="tituloLivro8">Título do Livro</div>
+                        <div class="preco8">R$ 00,00</div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+                </div>
+                    <div class="livrosGeral4">
+                        <div class="frente9"><a href="infolivro.html" target="_blank"><img src="image/diariodeumbananaamarelo.jpg" alt="nada" class="img9"></a></div>
+                        <div class="inferior9"></div> 
+                        <div class="folhas9"></div> 
+                        <div class="marcador9"></div> 
+                        <div class="tituloLivro9">Título do Livro</div>
+                        <div class="preco9">R$ 00,00</div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+                </div>
+                    <div class="livrosGeral5">
+                        <div class="frente10"><a href="infolivro.html" target="_blank"><img src="image/diariodeumbananaazulumdois.jpg" alt="nada" class="img10"></a></div>
+                        <div class="inferior10"></div> 
+                        <div class="folhas10"></div> 
+                        <div class="marcador10"></div> 
+                        <div class="tituloLivro10">Título do Livro</div>
+                        <div class="preco10">R$ 00,00</div>
+                <div class="buttonCompra">
+                    <div class="favoritarHome"><img src="image/heart-solid.svg" title="Adicionar aos favoritos
+                        " alt="favoritar"></div>
+                    <div class="comprarHome">
+                        <a href="#">COMPRAR</a>
+                    </div>
+                    <div class="carrinhoHome"><img src="image/cart-shopping-solid.svg" title="Adicionar ao carrinho" alt="carrinho"></div>
+                </div>
+            </div>
+        </div>
+            <div class="carrossel">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-3-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318"/>
+                  </svg>
+            </div>
+        <!--<div class="banner">banner</div>
+        <div class="frente1 livro"></div>
+        <div class="inferior1 livro"></div>
+        <div class="folhas1 livro"></div>
+        <div class="marcador1"></div>-->
+    </main>
+    <!-- footer natan -->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Livraria Miúda</h1>
+                <p>Literatura para a infância</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/livrariamiuda/" target="_blank" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/livrariamiuda" target="_blank" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://api.whatsapp.com/message/EKTY4JEVBCZ3H1?autoload=1&app_absent=0"  target="_blank" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Lorem ipsum dolor amet</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Cadastrar Email</h3>
+
+                <p>
+                    Cadastre seu e-mail para receber todas as
+                    novidades!
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved
+        </div>
+    </footer>
+</body>
+</html>
