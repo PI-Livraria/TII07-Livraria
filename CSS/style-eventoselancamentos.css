@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    background: linear-gradient(114deg, #FFF0CB 45.74%, rgba(232, 92, 59, 0.41) 100%); 
+}
+main h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #C84567;
+    color: #ffffff;
+}
+main .eventoselacamentos{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+main img{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 15px 15px 0px 0px;
+    border-color: #153383;
+}
+main .evento1 , .evento2 , .evento3 , .evento4{
+    margin: 0px 40px 20px ;
+    text-align: center;
+}
+main .infoEvento1 , .infoEvento2 , .infoEvento3 , .infoEvento4{
+    margin-top: -3px;
+    height: 200px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    min-inline-size: 260px;
+    width: 260px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+main h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #C84567;
+    color: #ffffff;
+}
+main .eventoselacamentos{
+    display: grid;
+    margin: auto;
+}
+
+main img{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 15px 0px 0px 15px;
+    border-color: #153383;
+}
+main .evento1 , .evento2 , .evento3 , .evento4{
+    margin: 0px 40px 20px ;
+    text-align: center;
+    display: flex;
+    
+    
+}
+main .infoEvento1 , .infoEvento2 , .infoEvento3 , .infoEvento4{
+    margin-top: -3px;
+    height: 163px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    background-color: #ffffff;
+    font-size: 13px;
+    align-content: center;
+    
+}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+main h1{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #C84567;
+    color: #ffffff;
+}
+main .eventoselacamentos{
+    display: grid;
+    margin: auto;
+}
+    
+main img{
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 15px 0px 0px 15px;
+    border-color: #153383;
+}
+main .evento1 , .evento2 , .evento3 , .evento4{
+    margin: 0px 40px 20px;
+    text-align: center;
+    display: flex;
+}
+main .infoEvento1 , .infoEvento2 , .infoEvento3 , .infoEvento4{
+    margin-top: 0px;
+    height: 130px;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px;
+    background-color: #ffffff;
+    font-size: 9px;
+    align-content: center;    
+    width: 110px;
+}
+}
+
+    
