@@ -1,0 +1,212 @@
+header #header1{
+    width: 100%;
+    background: #E85C3B;
+    height: 150px;
+}
+/* main */
+main .block1{
+    float: right;
+    width: 40%;
+    height: 480px;
+    background: #000;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px #000 solid;
+}
+main .block1 #book1{
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+}
+main .block2{
+    width: 30%;
+    height:140px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: #000;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px #000 solid;
+}
+main .block2 .h1{
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    height:120px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block2 .qtd1{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    height:120px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block2 .p1{
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    height:120px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block1 #button1top{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background: #000;
+    border: #000 solid 2px;
+    border-radius: 10px;
+}
+main .line1{
+    height: 2px;
+    margin-top: 10px;
+    width:300%;
+    background: #000;
+}
+/* outro livro */
+main .block1 #book2{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+}
+main .block2 .h2{
+    margin-top: 10px;
+    position: absolute;
+    font-size: 20px;
+    height:120px;
+    margin-left: 12%;
+}
+main .block2 .qtd2{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    height:120px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block2 .p2{
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    height:120px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .line2{
+    height: 2px;
+    margin-top: 10px;
+    width:300%;
+    background: #000;
+}
+main #frete{
+    float: left;
+    font-size: 20px;
+}
+main #total{
+    font-size: 25px;
+}
+
+/* 
+
+   aqui começa a parte esquerda da pagina 
+   responsavel pelos inputs 
+   
+*/
+main #title1{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 53px;
+}
+main .input1 input[name="number1"]{
+    width: 40%;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-left: 20px;
+    margin-left: 53px;
+    margin-bottom: 20px;
+}
+main .input2 input[name="number2"]{
+    width: 40%;
+    height: 30px;
+    outline: none;
+    margin-left: 53px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-left: 53px;
+    margin-bottom: 20px;
+    
+}
+main .input3 input[name="number3"]{
+    width: 19%;
+    height: 30px;
+    margin-left: 53px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-left: 53px;
+    margin-bottom: 20px;
+}
+main #cax1{
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-left: 53px;
+    border: #000 2px solid;
+    width: 40%;
+    height:120px;
+}
+main #cax1 i{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+main #cax1 #endress{
+    font-size: 20px;
+}
+main #cax1 #ceptext{
+    margin-left: 20px;
+}
+main #cax1 #endresstext{
+    margin-left: 20px;
+}
+main .input4 input[name="number4"]{
+    margin-left: 53px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: #000 2px solid;
+    width: 13%;
+    height:30px;
+}
+main .input4 input[name="number5"]{
+    margin-left: 53px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: #000 2px solid;
+    width: 20.2%;
+    height:30px;
+}
+main #button1 #number6{
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background: #000;
+    border: #000 solid 2px;
+    margin-left: 53px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/*
+
+   aqui acaba a parte esquerda da pagina 
+   responsavel pelos inputs 
+   
+*/
