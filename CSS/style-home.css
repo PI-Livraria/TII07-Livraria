@@ -1,0 +1,763 @@
+body{
+    
+    margin: 0px;
+    background: linear-gradient(114deg, #FFF0CB 45.74%, rgba(232, 92, 59, 0.41) 100%); 
+}
+/*header{
+    width: 100%;
+    height: 173px; 
+    background-color: #E85C3B;
+    align-content:flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+     
+}
+header .logo-topo{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    background-color: #FFFFFF;
+    width: 164px;
+    height: 120px;
+    text-align: center;
+    margin-right: 10px;
+}
+header .pesquisa{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    top: 50px;
+    background-color: #FFFFFF;
+    width: 451px;
+    height: 76px;
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+    bottom: 50px;
+}
+header .menu{
+    display: inline-block;
+    position: relative;
+    top: 43px;
+    left: 536px;
+    width: 100px;
+    height: 85px; 
+    background-color: #FFFFFF;
+    
+}
+header .carrinho{
+    display: inline-block;
+    width: 100px;
+    height: 85px; 
+    position: relative;
+    top: 43px;
+    left: 536px;
+    background-color: #FFFFFF;
+}
+header .usuario{
+    display: inline-block;
+    width: 100px;
+    height: 85px; 
+    position: relative;
+    top: 43px;
+    left: 536px;
+    background-color: #FFFFFF;
+} */
+main .banner{
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: 450px; 
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #C84567; 
+}
+main .eventos{
+    display: flex;
+    justify-content: space-around;
+}
+.eventoselacamentos:link{
+    text-decoration: none;
+    color: white;
+}
+.eventoselacamentos:visited{
+    color: white;
+}
+.eventoselacamentos:hover{
+    color: #FA8B71;
+}
+main .evento1 , .evento2 , .evento3 , .evento3 , .evento4 {
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 25px;
+    border-color: #153383;
+    border-radius: 15px;
+}
+main .imgEvento1 , .imgEvento2 , .imgEvento3 , .imgEvento4{
+    width: 250px;
+    height: 250px;
+}
+main .populares , .livrosGeral{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FACD5B;
+}
+main #livro , #todosLivrosHome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+/*main .livro1{*/
+   /* margin-left: 50px;
+    margin-top: 20px;*/
+main .img1 , .img2 , .img3 , .img4 , .img5 {
+    width: 189px;
+    height: 239px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+    }
+main .tituloLivro1 , .tituloLivro2 , .tituloLivro3 , .tituloLivro4 , .tituloLivro5{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+main .preco1 , .preco2 , .preco3 , .preco4 , .preco5{
+    font-family: 'Titillium Web';
+    margin-top: -40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+main .carrossel{
+    margin: 50px;
+}
+main .bi.bi-1-square-fill , .bi.bi-2-square-fill , .bi.bi-3-square-fill{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+}
+main .bi.bi-1-square-fill:hover , .bi.bi-2-square-fill:hover , .bi.bi-3-square-fill:hover{
+    color: #E85C3B;
+}
+
+main .livro1 .frente1{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 206px;
+    height: 255px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .livro1 .inferior1{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 206px;
+    height: 43px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .livro1 .folhas1{
+    position: relative;
+    top: -50px;
+    left: 24px;
+    width: 182px;
+    height: 26px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .livro1 .marcador1{
+    position: relative;
+    top: -76px;
+    left: 150px;
+    width: 32px;
+    height: 52px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .buttonCompra{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+}
+main .comprarHome{
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+.comprarHome:hover , .favoritarHome:hover , .carrinhoHome:hover{
+    background-color: #E85C3B;
+}
+main .favoritarHome , .carrinhoHome{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+main .frente2{
+   /* display: flexbox;*/
+    position: relative;
+   /* top: -310px;
+    left: 350px; */
+    width: 206px;
+    height: 255px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #F65E86;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .inferior2{
+    position: relative;
+    /*margin-bottom: 10px;
+    top: 820px;
+    left: 348px;*/
+    top: -15px;
+    width: 206px;
+    height: 43px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #C84567;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+main .folhas2{
+    position: relative;
+    top: -50px;
+    left: 24px;
+    width: 182px;
+    height: 26px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+}
+main .marcador2{
+    position: relative;
+    top: -76px;
+    left: 150px;
+    width: 32px;
+    height: 52px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .frente3{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #FA8B71;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior3{
+     position: relative;
+     /*margin-bottom: 10px;
+     top: 820px;
+     left: 348px;*/
+     top: -15px;
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #E85C3B;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas3{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador3{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+ main .frente4{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #FACD5B;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior4{
+     position: relative;
+     /*margin-bottom: 10px;*/
+     top: -15px;
+     /*left: 348px;*/
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas4{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador4{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+ main .frente5{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #2C4A9C;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior5{
+     position: relative;
+     /*margin-bottom: 10px;*/
+     top: -15px;
+     /*left: 348px;*/
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #153383;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas5{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador5{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+
+ main .img6 , .img7 , .img8 , .img9 , .img10{
+    width: 189px;
+    height: 239px;
+    margin-top: 1px;
+    margin-left: 17px;
+    border-radius: 28px 20px 0px 0px;
+ }
+ main .tituloLivro6 , .tituloLivro7 , .tituloLivro8 , .tituloLivro9 , .tituloLivro10{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ main .preco6 , .preco7 , .preco8 , .preco9 , .preco10{
+    font-family: 'Titillium Web';
+    margin-top: -40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+ main .frente6{
+    position: relative;
+    /*margin-top: 20px;
+    left: 50px;*/
+    width: 206px;
+    height: 255px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #2C4A9C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .inferior6{
+    position: relative;
+    /*margin-bottom: 10px;*/
+    top: -15px;
+    /*left: 48px;*/
+    width: 206px;
+    height: 43px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #153383;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .folhas6{
+    position: relative;
+    top: -50px;
+    left: 24px;
+    width: 182px;
+    height: 26px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+    z-index: 1;
+}
+main .marcador6{
+    position: relative;
+    top: -76px;
+    left: 150px;
+    width: 32px;
+    height: 52px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .buttonCompra{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+}
+main .comprarHome{
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+.comprarHome:hover , .favoritarHome:hover , .carrinhoHome:hover{
+    background-color: #E85C3B;
+}
+main .favoritarHome , .carrinhoHome{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+main .carrossel{
+    display: flex;
+    justify-content: center;
+}
+
+main .frente7{
+   /* display: flexbox;*/
+    position: relative;
+   /* top: -310px;
+    left: 350px; */
+    width: 206px;
+    height: 255px; 
+    border-radius: 50px 20px 20px 0px;
+    background: #F65E86;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+main .inferior7{
+    position: relative;
+    /*margin-bottom: 10px;
+    top: 820px;
+    left: 348px;*/
+    top: -15px;
+    width: 206px;
+    height: 43px; 
+    border-radius: 20px 0px 10px 50px;
+    background: #C84567;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+main .folhas7{
+    position: relative;
+    top: -50px;
+    left: 24px;
+    width: 182px;
+    height: 26px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF6E0;  
+}
+main .marcador7{
+    position: relative;
+    top: -76px;
+    left: 150px;
+    width: 32px;
+    height: 52px; 
+    background: #FDBB13;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    z-index: 1;
+}
+main .frente8{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #FA8B71;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior8{
+     position: relative;
+     /*margin-bottom: 10px;
+     top: 820px;
+     left: 348px;*/
+     top: -15px;
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #E85C3B;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas8{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador8{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+ main .frente9{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #FACD5B;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior9{
+     position: relative;
+     /*margin-bottom: 10px;*/
+     top: -15px;
+     /*left: 348px;*/
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas9{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador9{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+ main .frente10{
+    /* display: flexbox;*/
+     position: relative;
+    /* top: -310px;
+     left: 350px; */
+     width: 206px;
+     height: 255px; 
+     border-radius: 50px 20px 20px 0px;
+     background: #2C4A9C;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ }
+ main .inferior10{
+     position: relative;
+     /*margin-bottom: 10px;*/
+     top: -15px;
+     /*left: 348px;*/
+     width: 206px;
+     height: 43px; 
+     border-radius: 20px 0px 10px 50px;
+     background: #153383;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+ }
+ main .folhas10{
+     position: relative;
+     top: -50px;
+     left: 24px;
+     width: 182px;
+     height: 26px;
+     border-radius: 50px 0px 0px 50px;
+     background: #FFF6E0;  
+ }
+ main .marcador10{
+     position: relative;
+     top: -76px;
+     left: 150px;
+     width: 32px;
+     height: 52px; 
+     background: #FDBB13;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+     z-index: 1;
+ }
+@media (min-width: 481px) and (max-width: 768px) {
+    main .banner {
+        font-size:33px;
+        height: 320px;
+    }
+    main .evento1, .evento2{
+        width: 150px;
+  height: 150px;
+  background-color: pink;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 25px;
+  border-color: #153383;
+  border-radius: 15px;
+}
+    main .imgEvento1, .imgEvento2{
+        width: 150px;
+        height: 150px;
+    }
+    
+    main .evento3, .evento4 {
+        display: none;
+    }
+    main .populares, .livrosGeral{
+    margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Titillium Web';
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FACD5B;
+}
+    main #livro , #todosLivrosHome{
+  display: grid;
+  gap: 20px;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+    main .livro5 , .livrosGeral5{
+        display: none;
+    }
+   
+}
+@media (min-width: 320px) and (max-width: 480px){
+    main .banner {
+        font-size:33px;
+        height: 320px;
+    }
+    main .evento1, .evento2{
+        width: 150px;
+  height: 150px;
+  background-color: pink;
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 25px;
+  border-color: #153383;
+  border-radius: 15px;
+}
+    main .imgEvento1, .imgEvento2{
+        width: 150px;
+        height: 150px;
+    }
+    
+    main .evento3, .evento4 {
+        display: none;
+    }
+    main .populares, .livrosGeral{
+    margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: 'Titillium Web';
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FACD5B;
+}
+    main #livro , #todosLivrosHome{
+  display: grid;
+  gap: 20px;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+    main .livro5 , .livrosGeral5{
+        display: none;
+    }
+}
