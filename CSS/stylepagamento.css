@@ -1,0 +1,185 @@
+header #header1{
+    width: 100%;
+    background: #E85C3B;
+    height: 150px;
+}
+/* main */
+main .block1{
+    float: right;
+    width: 40%;
+    height: 480px;
+    background: #000;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px #000 solid;
+}
+main .block1 #book1{
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+}
+main .block2{
+    width: 30%;
+    height:140px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: #000;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px #000 solid;
+}
+main .block2 .h1{
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    height:120px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block2 .qtd1{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    height:120px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block2 .p1{
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    height:120px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block1 #button1top{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background: #000;
+    border: #000 solid 2px;
+    border-radius: 10px;
+}
+main .line1{
+    height: 2px;
+    margin-top: 10px;
+    width:300%;
+    background: #000;
+}
+/* outro livro */
+main .block1 #book2{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 140px;
+}
+main .block2 .h2{
+    margin-top: 10px;
+    position: absolute;
+    font-size: 20px;
+    height:120px;
+    margin-left: 12%;
+}
+main .block2 .qtd2{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+    height:120px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .block2 .p2{
+    position: absolute;
+    margin: 0px;
+    font-size: 20px;
+    height:120px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+    margin-left: 12%;
+}
+main .line2{
+    height: 2px;
+    margin-top: 10px;
+    width:300%;
+    background: #000;
+}
+main #frete{
+    float: left;
+    font-size: 20px;
+}
+main #total{
+    font-size: 25px;
+}
+
+/* 
+
+   aqui começa a parte esquerda da pagina 
+   responsavel pelos inputs 
+   
+*/
+.pagamentos{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 89px;
+}
+.caixa-1{
+    float: left;
+    margin-left: 84px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    background:transparent ;
+    border:3px solid #000 ;
+}
+.caixa-1 i{
+    margin-left: 22px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.cd{
+    font-size: 20px;
+    float: right;
+    margin-right: 390px;
+    margin-top: 15px;
+}
+.boleto{
+    font-size: 20px;
+    float: right;
+    margin-right: 400px;
+    margin-top: 15px;
+}
+.pix{
+    font-size: 20px;
+    float: right;
+    margin-right: 505px;
+    margin-top: 15px;
+}
+.DB{
+    font-size: 20px;
+    float: right;
+    margin-right: 385px;
+    margin-top: 15px;
+}
+#button2{
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-left: 6%;
+    margin-top: 60px;
+    background: #000;
+    border-radius: 10px;
+    border:1px solid black;
+    background: #000;
+    color: #fff;
+    float: left;
+}
+/*
+
+   aqui acaba a parte esquerda da pagina 
+   responsavel pelos inputs 
+   
+*/
